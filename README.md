@@ -1,11 +1,18 @@
-# Solução do jogo Soletra G1 - Globo.com
+
+# Solução do jogo Soletra G1 - Globo.com 
+<div align="center">
+  <img width="500" src="https://github.com/j0aoarthur/solucao-soletra-G1/assets/121466923/6ead74c9-6965-4682-a8be-89177582f7f8">
+</div>
+
+
+<br>
 
 Este é um script Python para jogar automaticamente o Soletra, um jogo desenvolvido pelo G1, parte da Globo.com, onde o jogador precisa formar palavras com um conjunto de letras fornecido.
 
 ## Funcionalidades
 
 - **Geração Automática de Palavras**: O script utiliza um arquivo de texto contendo todas as palavras do dicionário português brasileiro para gerar as palavras possíveis com base nas letras fornecidas.
-- **Personalização de Parâmetros**: O usuário pode definir as letras obrigatórias, letras acompanhantes, tamanho mínimo e máximo das palavras diretamente no arquivo `main.py`.
+- **Personalização de Parâmetros**: O usuário pode definir a letra obrigatória, as letras acompanhantes, tamanho mínimo e máximo das palavras diretamente no arquivo `main.py`.
 - **Exportação de Resultados**: Ao final do programa, é gerado um arquivo de texto contendo as palavras encontradas durante o jogo. O arquivo é nomeado como `resultado_soletra{data-do-dia}.txt`, onde a data do dia é adicionada ao nome do arquivo para garantir unicidade.
 
 
@@ -30,10 +37,14 @@ pip install -r requirements.txt
 ```
 ## Execução
 
-Para jogar Soletra, basta executar o arquivo `main.py`. Certifique-se de ter configurado as variáveis necessárias no arquivo `main.py` de acordo com suas preferências ou pode deixar como está atualmente e digitar no terminal:
+Para jogar Soletra, basta executar o arquivo `main.py`. Certifique-se de ter configurado as variáveis necessárias no arquivo `main.py` de acordo com suas preferências:
 
-<!-- Coloque a imagem aqui -->
+##### Caso queira, pode deixar como está atualmente e digitar no terminal quando executar o script que funcionará normalmente
 
+<img src="https://github.com/j0aoarthur/solucao-soletra-G1/assets/121466923/2ca4b2a4-ad63-4ab8-806d-b74b7cb2cbda">
+
+<br>
+<br>
 Após configurar as variáveis, execute o script:
 
 ```bash
